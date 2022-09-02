@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio-player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <div id="audio-container">
+        <div id="cover"></div>
+        <div id="player">
+            <div id="buttons">
+                <audio src="assets/audio/beyonce.mp3"></audio>
+                <div id="playbutton">
+                    <img src="assets/svg/play.svg">
+                </div>
+                <div id="audio-name">
+                    <h4>Beyonce</h4>
+                    <p>Don't Hurt Yourself</p>
+                </div>
+                <div id="switches">
+                    <div id="next">
+                        <img src="assets/svg/play-next.svg">
+                    </div>
+                    <div id="prev">
+                        <img src="assets/svg/play-prev.svg">
+                    </div>
+                </div>
+            </div>
+            <div id="duration">03:53</div>
+            <input type="range" id="progress" value="0" min="0" max="100" step ="1">
+            <div id="current-time">00:00</div>
+        </div>
+        </div>
+        <footer>
+        <div class="container">
+            <p><a href="https://github.com/Rustam9724" id="github-link">&copy; 2022 github</a></p>
+            <p><a href="https://rs.school/js-stage0/" id="rs-link"><img src="assets/images/RS.png"></a></p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>  
